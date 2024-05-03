@@ -36,17 +36,17 @@
   bottom: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(50%);
-  color: antiquewhite;
-  font-size: clamp(18px, 100%, 24px);
+  color: ghostwhite;
+  font-size: clamp(20px, 100%, 24px);
   font-weight: 700;
   font-family: fantasy;
   text-shadow:
-    8px 8px 8px rgba(0, 0, 0, 0.4),
-    -8px -8px 8px rgba(0, 0, 0, 0.4),
-    -8px 8px 8px rgba(0, 0, 0, 0.4),
-    8px -8px 8px rgba(0, 0, 0, 0.4),
-    4px 4px 16px rgba(0, 0, 0, 0.4),
-    6px 6px 24px rgba(0, 0, 0, 0.4);
+    4px 4px 4px black,
+    -4px -4px 4px black,
+    -4px 4px 4px black,
+    4px -4px 4px black,
+    4px 4px 16px black,
+    6px 6px 24px black;
   text-transform: lowercase;
   text-align: center;
   line-height: 2;

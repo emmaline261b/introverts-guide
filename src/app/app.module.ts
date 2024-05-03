@@ -10,6 +10,10 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { IntroComponent } from './intro/intro.component';
+import { CookComponent } from './cook/cook.component';
+import { DressComponent } from './dress/dress.component';
+import { TravelComponent } from './travel/travel.component';
+import { VoteComponent } from './vote/vote.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +24,10 @@ import { IntroComponent } from './intro/intro.component';
     FooterComponent,
     SideMenuComponent,
     IntroComponent,
+    CookComponent,
+    DressComponent,
+    TravelComponent,
+    VoteComponent,
     // Add other components here as needed...
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
