@@ -5,15 +5,18 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { MainComponent } from './main/main.component';
+import { IntroComponent } from './intro/intro.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'main', pathMatch: 'full' },
+  { path: '', redirectTo: 'intro', pathMatch: 'full' },
   { path: 'main', component: MainComponent },
-  { path: '**', redirectTo: 'main', pathMatch: 'full' },
+  { path: 'home', component: IntroComponent },
+  { path: 'intro', component: IntroComponent },
+  { path: '**', redirectTo: 'intro', pathMatch: 'full' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
 export class AppRoutingModule {}

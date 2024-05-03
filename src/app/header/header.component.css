@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  /*background: rgba(255, 255, 255, 0.4);*/
+  /*padding: 1rem;*/
+
+  /*backdrop-filter: blur(2px); !* Adjust blur level as needed *!*/
+  /*transition: background 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;*/
+}
+
+
+.header_logo  {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 1rem;
+
+  backdrop-filter: blur(2px); /* Adjust blur level as needed */
+  transition: background 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+}
+
+.header_logo img {
+  width: 100px;
+  height: auto;
+  padding: 1rem;
+  border-radius: 50%;
+}
+

@@ -1,0 +1,13 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Side menu is 1/3, body is 2/3 */
+  height: 100%; /* Optional: to fill the container height */
+}
+
+.side-menu {
+  background-color: red;
+}
+
+.body-content {
+  background-color: blue;
+}
